@@ -11,7 +11,7 @@ import threading
 # Initialize the recognizer and speech engine
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "648677dc02254c57afc660a42858d6f6"
+newsapi = "<Your News API>"
 
 def speak(text):
     # Convert text to speech using Google Text-to-Speech
